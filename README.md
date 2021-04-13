@@ -12,3 +12,4 @@ https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-
 ### The edge candidates
 For edge candidates , first we find the edges using Canny Edge Detection and then subtracting the blood vessels from he image using the given function 
 ![edge](https://user-images.githubusercontent.com/44440114/114541822-d47c7e00-9c74-11eb-8392-1ee9111044d0.png)
+### Now in order to remove the outer edge , we take a mask just as the same shape of the image and then perform a bitwise AND with the image
