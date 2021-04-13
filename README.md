@@ -15,4 +15,11 @@ For edge candidates , first we find the edges using Canny Edge Detection and the
 ### Now in order to remove the outer edge , we take a mask just as the same shape of the image and then perform a bitwise AND with the image
 ![exudates](https://user-images.githubusercontent.com/44440114/114542199-4785f480-9c75-11eb-803d-8523c6cb7338.png)
 ### Now we will know where are the exudates by comparing the images
+![final](https://user-images.githubusercontent.com/44440114/114542361-7308df00-9c75-11eb-9e2a-82843e21c264.png)
+# Credits
+## Papers taken for reference 
+1.Guimarães, Juliana & Amorim, Luciana & Ferreira, Flávia & Peixoto, Zélia. (2019). Automatic segmentation of blood vessels in retinal images using 2D Gabor wavelet and sub-image thresholding resulting from image partition. Biomedical Engineering. 39. 10.1007/s42600-019-00028-9. 
+
+
+2. A. Elbalaoui, M. Boutaounte, H. Faouzi, M. Fakir and A. Merbouha, "Segmentation and detection of diabetic retinopathy exudates," 2014 International Conference on Multimedia Computing and Systems (ICMCS), Marrakech, Morocco, 2014, pp. 171-178, doi: 10.1109/ICMCS.2014.6911368.
 
