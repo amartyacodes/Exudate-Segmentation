@@ -11,3 +11,4 @@ https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-
 ![bv image](https://user-images.githubusercontent.com/44440114/114541416-54eeaf00-9c74-11eb-942c-472769ace95f.png)
 ### The edge candidates
 For edge candidates , first we find the edges using Canny Edge Detection and then subtracting the blood vessels from he image using the given function 
+![edge](https://user-images.githubusercontent.com/44440114/114541822-d47c7e00-9c74-11eb-8392-1ee9111044d0.png)
